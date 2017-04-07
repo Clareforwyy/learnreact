@@ -1,10 +1,12 @@
-var Reactdemo = React.createClass({
+var NotesList = React.createClass({
 	render: function() {
-		return (<h1>你好世界</h1>)
+		return (
+			<h1>你好，破react，费劲</h1>
+		);
 	}
 });
-React.render(<Reactdemo/>,
-	document.getElementById("contanier"),
-	function() {
-		alert("ok")
-	})
+
+ReactDOM.render(
+	<NotesList/>,
+	document.body
+);
