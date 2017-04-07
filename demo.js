@@ -1,4 +1,4 @@
-var Reactdemo = React.CreateClass({
+var Reactdemo = React.createClass({
 	render: function() {
 		return (<h1>你好世界</h1>)
 	}
